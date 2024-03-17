@@ -14,7 +14,7 @@ end
 
 function Initialize()
     detailedLog =  SKIN:GetVariable('Debug')
-    if detailedLog == 1 then
+    if detailedLog == "1" then
         actions_debug = true
     else
         actions_debug = false
