@@ -7,10 +7,18 @@ function skin_name()
 end
 
 function log(szString)
-    print(skin_name() .. " (Actions.lua):" .. szString)
+    if actions_debug then
+        print(skin_name() .. " (Actions.lua):" .. szString)
+    end
 end
 
 function Initialize()
+    detailedLog =  SKIN:GetVariable('Debug')
+    if detailedLog == 1 then
+        actions_debug = true
+    else
+        actions_debug = false
+    end
     log("in Initialize")
 end
 
