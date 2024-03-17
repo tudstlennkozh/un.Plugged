@@ -78,24 +78,3 @@ function deactivate_skins()
     _change_skin_state(false)
     return False
 end
-
--- tests
-OtherSkins = 'Win10 Widgets\\Weather"+"Weather-ExtraLarge.ini"|"Win10 Widgets\\Performance - CPU"+"CPU-Small.ini"|"Win10 Widgets\\Performance - Network"+"Network-Small.ini'
-print(OtherSkins)
-list=split(OtherSkins, '|')
-for k,v in pairs(list) do
-    print("block "..k)
-    local details = split(v, '\+')
-    local name
-    local ini_name
-    for num,value in pairs(details) do
-        if num == 1 then
-            name = remove_chars(value, "\"")
-        else
-            ini_name = remove_chars(value, "\"")
-        end
-    end
-    print("name:" .. name .. "\nini:" .. ini_name)
-end
-
-
