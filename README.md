@@ -4,6 +4,8 @@ A skin to load/unload other skins when plugged/on battery
 
 ## Installing
 
+See [installing skins](https://docs.rainmeter.net/manual/installing-skins/) for more details.
+
 ### Automatic
 
 * Install [rainmeter](https://github.com/rainmeter/rainmeter/releases/latest)
@@ -27,3 +29,6 @@ A skin to load/unload other skins when plugged/on battery
 * icons from https://free-icons.github.io/free-icons/
 * inspiration from [this thread](https://forum.rainmeter.net/viewtopic.php?p=206092) in rainmeter forum
  
+## License
+
+Creative Commons Attribution - Non - Commercial - Share Alike 3.0
