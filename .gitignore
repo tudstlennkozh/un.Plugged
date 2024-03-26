@@ -2,3 +2,4 @@
 WebParserDump.txt
 *.rmskin
 /releases/
+/build/releases/
