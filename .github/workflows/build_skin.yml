@@ -1,6 +1,6 @@
 # This workflow will build the skin for rainmeter
 
-name: Python application
+name: Build skin
 
 on:
   push:
