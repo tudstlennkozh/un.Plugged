@@ -45,4 +45,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ github.ref_name }}
       run: |
-        gh release upload $GITHUB_REF (un)Plugged.${tag#v}.rmskin
+        gh release upload $GITHUB_REF '(un)Plugged'.${tag#v}.rmskin
