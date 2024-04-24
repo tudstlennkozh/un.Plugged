@@ -15,6 +15,17 @@ See [installing skins](https://docs.rainmeter.net/manual/installing-skins/) for 
 
 * Download this repository's zip file and extract the folder located in `Skins` folder into the *Rainmeter* skins folder (defaults to `C:\Users\%USERNAME%\Documents\Rainmeter\Skins` ).
 
+## How to use
+
+This skin will unload other skins when the computer will be on battery, and then reload them when plugged back in. 
+For now, you must edit `@Resources/Rainmeter.inc` file and modify `OtherSkins` variable in order to tell the skin which other skins to load/unload.
+Format for `OtherSkins` variable is :
+```ini
+OtherSkins="skin-name"+"skin-file.ini"|
+```
+You can repeat this value "skin-name"+"skin-file.ini" for each skin you want to load/unload. Separator for each skin's description is `|`.
+It is mandatory to tell the `.ini` file, due to the way Rainmeter API is used.
+
 ## Contributing
 
 * Fork the repository: Fork
