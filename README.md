@@ -18,7 +18,10 @@ See [installing skins](https://docs.rainmeter.net/manual/installing-skins/) for 
 ## How to use
 
 This skin will unload other skins when the computer will be on battery, and then reload them when plugged back in. 
-For now, you must edit `@Resources/Rainmeter.inc` file and modify `OtherSkins` variable in order to tell the skin which other skins to load/unload.
+
+In order to change the list of skins, click-left on the widget (text or graphic) and choose `Edit (un)Plugged Config` menu.
+You will be redirected to an .ini file. 
+
 Format for `OtherSkins` variable is :
 ```ini
 OtherSkins="skin-name"+"skin-file.ini"|

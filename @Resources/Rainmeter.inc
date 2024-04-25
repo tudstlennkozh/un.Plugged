@@ -2,8 +2,11 @@
 [Rainmeter]
 Update=1000
 
+ContextTitle=Edit (un)Plugged Config
+ContextAction=["#@#Variables.ini"]
+
 [Variables]
-OtherSkins="Win10 Widgets\Weather"+"Weather-ExtraLarge.ini"|"Win10 Widgets\Performance - CPU"+"CPU-Small.ini"|"Win10 Widgets\Performance - Network"+"Network-Small.ini"
+@IncludeVariables=#@#Variables.ini
 ; set to 1 if detailed logs wanted
 Debug=0
 
