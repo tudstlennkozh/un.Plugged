@@ -44,7 +44,7 @@ It is mandatory to tell the `.ini` file, due to the way Rainmeter API is used.
 * Create a new Pull Request! 🎉
 
 
-## general
+## General
 
 * icons from https://free-icons.github.io/free-icons/
 * inspiration from [this thread](https://forum.rainmeter.net/viewtopic.php?p=206092) in rainmeter forum
