@@ -1,3 +1,5 @@
+<img alt="(un)Plugged logo" src="icons/plug-transparent-1.png" width="10%" height="10%" align="right">
+
 # (un)Plugged
 
 A skin to load/unload other skins when plugged/on battery
