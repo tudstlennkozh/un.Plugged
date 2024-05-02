@@ -1,4 +1,8 @@
-<img alt="(un)Plugged logo" src="icons/plug-transparent-1.png" width="10%" height="10%" align="right">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/plug-transparent-white-1.png">
+    <source media="(prefers-color-scheme: light)" srcset="icons/plug-transparent-1.png">
+    <img alt="(un)Plugged logo" src="icons/plug-transparent-1.png" width="10%" height="10%" align="right">
+</picture>
 
 # (un)Plugged
 
