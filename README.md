@@ -6,7 +6,7 @@
 
 # (un)Plugged
 
-A skin to load/unload other skins when plugged/on battery
+A [Rainmeter](https://www.rainmeter.net/) skin to load/unload other skins when computer is plugged or on battery
 
 ## Installing
 
